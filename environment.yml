@@ -1,0 +1,13 @@
+name: AzureCommLive
+channels:
+- conda-forge
+dependencies:
+- notebook
+- numpy
+- scipy
+- qutip
+- matplotlib
+- pip
+- pip:
+    - qsharp
+    - rise
